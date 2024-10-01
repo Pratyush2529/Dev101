@@ -1,0 +1,60 @@
+h1{
+    color: red;
+}
+.heading{
+    color: blue;
+}
+#second   {
+    color: green;
+}
+
+.heading, .para, #second{
+    text-decoration:overline;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 2px 2px 2px gray;
+}
+
+div p{
+    background-color: burlywood;
+}
+
+div>p{
+font-size:x-large;
+}
+
+p[id="one"]{
+    background-color: cornflowerblue;
+}
+
+a:hover{
+    font-size: x-large;
+}
+a:visited{
+    color: cyan;
+}
+a:active{
+    color: brown;
+}
+
+
+p::first-line{
+    color: red;
+}
+p::first-letter{
+    font-size: x-large;
+    ;
+}
+
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDkaNYHvkjm2Gnl12-hYrps6EPqQ7FVVEnzvXruZ1N_b_NFdeFW3I3352Ze7jimi1S3_M&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.last{
+    padding: 10px;
+ 
+ margin: 10px 50px 10px 10px;
+    border: 10px solid black;
+}
+
